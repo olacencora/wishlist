@@ -46,3 +46,18 @@ body {
   border: 1px solid #000;
   margin: 2rem;
 }
+
+/* people  */
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.button-box {
+  height: 300px;
+  width: 200px;
+  border: 1px solid #000;
+  margin: 2rem;
+}
