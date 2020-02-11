@@ -32,6 +32,10 @@ body {
   text-align: center;
 }
 
+.text-explain__mark {
+  background: linear-gradient(transparent calc(100% - 1.2rem), #95e4db 0.4em);
+}
+
 /* material stuff  */
 
 .cards-container {
