@@ -11,6 +11,10 @@ body {
   font-size: 10px;
 }
 
+.wrapper {
+  background-color: #d0faf5;
+}
+
 .page-box {
   width: 100vw;
   height: 100vh;
