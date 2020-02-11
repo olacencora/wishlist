@@ -40,6 +40,15 @@ body {
   background: linear-gradient(transparent calc(100% - 1.2rem), #95e4db 0.4em);
 }
 
+.text-header__mark {
+  font-weight: 400;
+  color: #ffffff;
+  background: #d0faf5;
+  text-shadow: 0 0 10px #95e4db;
+  color: #ffffff;
+  background: #d0faf5;
+}
+
 /* material stuff  */
 
 .cards-container {
