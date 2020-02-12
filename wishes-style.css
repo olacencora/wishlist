@@ -13,6 +13,7 @@ body {
 
 .wrapper {
   background-color: #d0faf5;
+  min-width: 280px;
 }
 
 .page-box {
@@ -21,8 +22,8 @@ body {
 }
 
 .text-header {
-  font-size: 12rem;
-  line-height: 11rem;
+  font-size: 9rem;
+  line-height: 8rem;
 }
 
 .text-explain {
@@ -47,6 +48,23 @@ body {
   text-shadow: 0 0 10px #95e4db;
   color: #ffffff;
   background: #d0faf5;
+}
+
+/* hi page  */
+
+.hi {
+  position: relative;
+  background-image: url(img/unicorn.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hi-text {
+  position: absolute;
+  bottom: 3rem;
+  right: 0;
+  width: 40%;
+  text-align: right;
 }
 
 /* material stuff  */
