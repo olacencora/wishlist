@@ -1,3 +1,7 @@
+var el = document.querySelectorAll("section");
+
+console.log(el);
+
 !(function(t, e) {
   "object" == typeof exports && "undefined" != typeof module
     ? (module.exports = e())
@@ -29,6 +33,7 @@
   return class {
     constructor({
       el: s,
+
       time: o = 600,
       easing: i = "ease-out",
       loop: a = !1,
@@ -146,3 +151,40 @@
     }
   };
 });
+
+var app = new onePageScroll({
+  el: el
+});
+
+var app = new onePageScroll({
+  loop: false
+});
+
+var app = new onePageScroll({
+  time: 1000
+});
+
+var app = new onePageScroll({
+  easing: "ease-out"
+});
+
+var app = new onePageScroll({
+  throttling: 300
+});
+
+el.addEventListener("inview", function(e) {
+  // do something
+});
+
+el.addEventListener("outview", function(e) {
+  // do something
+});
+
+// next
+app.next();
+
+// prev
+app.prev();
+
+// go to a specified page
+app.goto(n);
