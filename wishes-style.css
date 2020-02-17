@@ -50,16 +50,16 @@ body {
   background: #d0faf5;
 }
 
-/* hi page  */
+/* 1 page  */
 
-.hi {
+#s1 {
   position: relative;
   background-image: url(img/unicorn.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.hi-text {
+#s1 text {
   position: absolute;
   bottom: 3rem;
   right: 0;
@@ -69,13 +69,13 @@ body {
 
 /* material stuff  */
 
-.cards-container {
+#s5 .container {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.card-box {
+#s5 .box {
   height: 300px;
   width: 200px;
   border: 1px solid #000;
@@ -84,13 +84,13 @@ body {
 
 /* people  */
 
-.buttons-container {
+#s7 .container {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.button-box {
+#s7 .box {
   height: 300px;
   width: 200px;
   border: 1px solid #000;

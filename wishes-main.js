@@ -1,7 +1,3 @@
-var el = document.querySelectorAll("section");
-
-console.log(el);
-
 !(function(t, e) {
   "object" == typeof exports && "undefined" != typeof module
     ? (module.exports = e())
@@ -33,7 +29,6 @@ console.log(el);
   return class {
     constructor({
       el: s,
-
       time: o = 600,
       easing: i = "ease-out",
       loop: a = !1,
@@ -152,6 +147,7 @@ console.log(el);
   };
 });
 
+var el = document.querySelectorAll("section");
 var app = new onePageScroll({
   el: el
 });
