@@ -82,6 +82,14 @@ body {
   margin: 2rem;
 }
 
+#s5 .image_space {
+  width: 120px;
+  height: 120px;
+  background-image: url(img/icon_space.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /* page 6 extra skills  */
 
 #s6 .container {
