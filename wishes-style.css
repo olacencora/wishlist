@@ -69,7 +69,7 @@ body {
 
 /* 4 page  */
 
-/* material stuff  */
+/* 5 page material stuff  */
 
 #s5 .container {
   display: flex;
@@ -81,6 +81,7 @@ body {
   height: 200px;
   width: 200px;
   border: 1px solid #000;
+  border-radius: 20px;
   margin: 2rem;
   display: flex;
   flex-direction: column;
@@ -91,6 +92,7 @@ body {
 #s5 .text {
   font-size: 1.5rem;
   line-height: 1.6rem;
+  text-align: center;
 }
 
 #s5 .image_space {
