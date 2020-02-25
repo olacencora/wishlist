@@ -67,6 +67,8 @@ body {
   text-align: right;
 }
 
+/* 4 page  */
+
 /* material stuff  */
 
 #s5 .container {
@@ -76,10 +78,19 @@ body {
 }
 
 #s5 .box {
-  height: 300px;
+  height: 200px;
   width: 200px;
   border: 1px solid #000;
   margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#s5 .text {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
 }
 
 #s5 .image_space {
