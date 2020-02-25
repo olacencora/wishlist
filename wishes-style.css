@@ -90,6 +90,54 @@ body {
   background-size: contain;
 }
 
+#s5 .image_egg {
+  width: 120px;
+  height: 120px;
+  background-image: url(img/icon_egg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#s5 .image_invisible {
+  width: 120px;
+  height: 120px;
+  background-image: url(img/icon_invisib.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#s5 .image_phone {
+  width: 120px;
+  height: 120px;
+  background-image: url(img/icon_phone.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#s5 .image_elixir {
+  width: 120px;
+  height: 120px;
+  background-image: url(img/icon_eliksire.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#s5 .image_machine {
+  width: 120px;
+  height: 120px;
+  background-image: url(img/icon_invent.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#s5 .image_oscar {
+  width: 120px;
+  height: 120px;
+  background-image: url(img/icon_award.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /* page 6 extra skills  */
 
 #s6 .container {
